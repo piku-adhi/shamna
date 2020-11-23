@@ -12,7 +12,7 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
     
   </a>
   <a href="https://github.com/jacobpaul20c/shamnapro_bot">
-    <img src="https://img.shields.io/github/stars/Sur-vivor/CinderellaProBot?style=social">
+    <img src="https://img.shields.io/github/stars/jacobpaul20c/shamnapro_bot?style=social">
   </a>
 </p>
 
