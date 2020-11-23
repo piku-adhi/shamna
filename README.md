@@ -11,7 +11,7 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
     <img src="https://img.shields.io/github/forks/jacobpaul20c/shmanapro_bot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Sur-vivor/CinderellaProBot">
+  <a href="https://github.com/jacobpaul20c/shamnapro_bot">
     <img src="https://img.shields.io/github/stars/Sur-vivor/CinderellaProBot?style=social">
   </a>
 </p>
