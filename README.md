@@ -1,8 +1,8 @@
 ### @shamnapro_bot // http://https//t.me/shamnapro_bot
 > with HunterxHunter theme.
-###Well well note one think..
+*Well well note one think..
 The bot is based on the original work done by [survivor](https://t.me/surv_iour)
-This repo was just revamped to suit an Anime-centric community. All original credits go to survivor and his dedication, Without his efforts, this fork would not have been possible!
+This repo was just revamped from [cindrellaproBot](https://t.me/cindrellaproBot) All original credits go to survivor and his dedication, Without his efforts, this fork would not have been possible!*
 
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
