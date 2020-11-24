@@ -1,5 +1,8 @@
 ### @shamnapro_bot // http://https//t.me/shamnapro_bot
 > with HunterxHunter theme.
+Well well note one think..
+This bot was froked from @cindrellaproBot all credits belongs to @Surv_ivor.
+Because he worked a lot of it (his efforts) all are important.
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
