@@ -11,8 +11,8 @@ This repo was just revamped from [cindrellaproBot](https://t.me/cindrellaproBot)
 Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
 
 <p align="center">
-  <a href="https://github.com/jacobpaul20c/shamnapro_bot/fork">
-    <img src="https://img.shields.io/github/forks/jacobpaul20c/shmanapro_bot?label=Fork&style=social">
+  <a href="https://github.com/jacobpaul20c/shamnaprobot/fork">
+    <img src="https://img.shields.io/github/forks/jacobpaul20c/shamnaprobot?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/jacobpaul20c/shamnapro_bot">
