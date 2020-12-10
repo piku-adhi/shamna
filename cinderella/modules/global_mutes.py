@@ -75,7 +75,7 @@ def gmute(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("Gets duct tape ready 😉")
+    message.reply_text(" *മിണ്ടാതെ ഇരുന്നോണം" 🎃")
 
     muter = update.effective_user  # type: Optional[User]
     log_message = (
