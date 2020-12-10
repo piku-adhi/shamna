@@ -29,20 +29,20 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("You don't seem to be referring to a user.")
+        message.reply_text(" ആരെയാണ് ബാൻ ആക്കണ്ടത് എന്ന പറഞ്ഞില്ല.")
         return ""
 
     try:
         member = chat.get_member(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            message.reply_text("I can't seem to find this user")
+            message.reply_text(" ഇയാളെ എന്നിക്ക് പരിചയം ഇല്ല")
             return ""
         else:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I really wish I could ban admins...")
+        message.reply_text("അഡ്മിൻ ആണ് സാർ ബാൻ ആക്കാൻ പറ്റില്ല...")
         return ""
     
     if user_id == 1368052515:
@@ -50,7 +50,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
     
     if user_id == bot.id:
-        message.reply_text("I'm not gonna ban myself..fuck off!")
+        message.reply_text(" ഞാൻ എന്നെ തന്നെ ബാൻ ആക്കണം എന്നോ?..fuck off!")
         return ""
 
     log = "<b>{}:</b>" \
