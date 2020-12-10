@@ -36,11 +36,11 @@ def check_flood(bot: Bot, update: Update) -> str:
     soft_flood = sql.get_flood_strength(chat.id)
     if soft_flood:  # kick
         chat.unban_member(user.id)
-        reply = "Wonderful, I don't like your flooding. Get out! {} has been kicked!".format(mention_html(user.id, user.first_name))
+        reply = " കളറായിട്ടുണ്ടല്ലോ!. ഇറങ്ങി പോ! {} has been kicked!".format(mention_html(user.id, user.first_name))
 
     else:  # ban
         chat.kick_member(user.id)
-        reply = "Frankly, I like to leave the flooding to natural disasters. {} has been banned!".format(mention_html(user.id, user.first_name))
+        reply = "Frankly, ഭാ ഹംക്കെ! {} has been banned!".format(mention_html(user.id, user.first_name))
     try:
         keyboard = []
         msg.reply_text(reply, reply_markup=keyboard, parse_mode=ParseMode.HTML)
