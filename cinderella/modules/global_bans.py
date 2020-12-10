@@ -113,7 +113,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
     
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️")
+    message.reply_text("⚡️ * പണി വരുന്നുണ്ട് അവറാച്ച!* ⚡️")
     
     start_time = time.time()
     datetime_fmt = "%H:%M - %d-%m-%Y"
