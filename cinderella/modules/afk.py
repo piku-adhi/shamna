@@ -27,7 +27,7 @@ def afk(bot: Bot, update: Update):
 
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
-    update.effective_message.reply_text("{} is now away!".format(fname))
+    update.effective_message.reply_text("{} മുത്ത്മണി പോയി🥺".format(fname))
 
     
 @run_async
@@ -47,7 +47,7 @@ def no_longer_afk(bot: Bot, update: Update):
         try:        
             options = [
           
-            '{} is back online!'
+            '{} മുത്ത്മണി തിരിച്ചു വന്നേ 🥳 പോയിട്ട് എന്താ കെണ്ടു വന്നെ?'
      
                     ]
             chosen_option = random.choice(options)
@@ -125,7 +125,7 @@ def check_afk(bot, update, user_id, fst_name, userc_id):
 __help__ = """
  - /afk <reason>: mark yourself as AFK(away from keyboard).
  - brb <reason>: same as the afk command - but not a command.
-When marked as AFK, any mentions will be replied to with a message to say you're not available!
+'both are same integer' afk is a command brb is not a command
 """
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
