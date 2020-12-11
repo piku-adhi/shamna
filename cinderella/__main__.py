@@ -179,7 +179,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="MASTER",url="https://t.me/pikachu_of_telegram"),InlineKeyboardButton(text="◆MT OFFICIAL PRO BOT",url=http://t.me/RiskGirl_bot")]]
+    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="MASTER",url="https://t.me/pikachu_of_telegram"),InlineKeyboardButton(text="◆MT OFFICIAL PRO BOT",url="http://t.me/RiskGirl_bot")]]
     keyboard += [[InlineKeyboardButton(text="MT OFFICIAL", url="http://t.me/MT_Officials"),InlineKeyboardButton(text="HONEY BEES ",url="http://t.me/HoneyBeesChat")]]
     keyboard += [[InlineKeyboardButton(text="DEVELOPERS",  url="http://t.me/mtoffbotdev") ,InlineKeyboardButton(text="REPO",url-"http://t.me/Shamnapro_bot")
 
