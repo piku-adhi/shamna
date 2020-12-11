@@ -180,7 +180,7 @@ def send_start(bot, update):
     text = PM_START_TEXT
 
     keyboard = [[InlineKeyboardButton(text="ᎻᎬᏞᏢ",callback_data="help_back"),InlineKeyboardButton(text="💡MASTER BRAIN💡",url="https://t.me/power_of_telegram")]]
-    keyboard += [[InlineKeyboardButton(text="MOVIES🎥", callback_data="https://t.me/HoneyBeesChat"),InlineKeyboardButton(text="MT OFFICIAL",url="https://t.me/MT_Officials".format(bot.username))]]
+    keyboard += [[InlineKeyboardButton(text="MOVIES🎥", callback_data="https://t.me/HoneyBeesChat"),InlineKeyboardButton(text="MT OFFICIAL",url="https://t.me/mallusoldiers".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
