@@ -78,7 +78,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/fe5de56d6014f7b5cc0c5.jpg"
+    img = "https://telegra.ph/file/48f109f213b0b453e4e3d.jpg"
 else:
   img = START_IMG    
     
@@ -343,7 +343,7 @@ def settings_button(bot: Bot, update: Update):
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton(text="🏃🏻‍♂️Back🏃🏻‍♂️",
+                                         [[InlineKeyboardButton(text="🎸Back🎸",
                                                                 callback_data="stngs_back({})".format(chat_id))]]))
 
         elif prev_match:
