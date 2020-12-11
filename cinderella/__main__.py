@@ -179,8 +179,9 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="💁Help",callback_data="help_back"),InlineKeyboardButton(text="👑mt official👑",url="https://t.me/fun_heat")]]
-    keyboard += [[InlineKeyboardButton(text="🌏mt devlopers 🤧", callback_data="main_connect"),InlineKeyboardButton(text="shruthi bot",url="t.me/{}?startgroup=true".format(bot.username))]]
+    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="MASTER BRAIN",url="https://t.me/pikachu_of_telegram")]]
+    keyboard += [[InlineKeyboardButton(text="MT OFFICIAL ",url="http://t.me/MT_Officials"),InlineKeyboardButton(text="SHRUTHI",url="http://t.me/Riskgirl_Bot")]]
+    keyboard += [[InlineKeyboardButton(text="DEVELOPERS",url="http://t.me/mtoffbotdev"),InlineKeyboardButton(text="HONEY BEES",url="http://t.me/HoneyBeesChat")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
