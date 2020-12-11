@@ -28,8 +28,8 @@ from cinderella.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+_My name is_ *{}*\n_A Telegram Bot developed for MT OFFICIAL!!_
+_Developed by 👉_ [{}](tg://user?id={})
 """
 
 
@@ -179,9 +179,10 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="MASTER BRAIN",url="https://t.me/pikachu_of_telegram")]]
+    keyboard = [[InlineKeyboardButton(text="SHAMNA",url="http://t.me/ShamnaPro_bot"),InlineKeyboardButton(text="MASTER BRAIN",url="https://t.me/pikachu_of_telegram")]]
     keyboard += [[InlineKeyboardButton(text="MT OFFICIAL ",url="http://t.me/MT_Officials"),InlineKeyboardButton(text="SHRUTHI",url="http://t.me/Riskgirl_Bot")]]
     keyboard += [[InlineKeyboardButton(text="DEVELOPERS",url="http://t.me/mtoffbotdev"),InlineKeyboardButton(text="HONEY BEES",url="http://t.me/HoneyBeesChat")]]
+    keyboard += [[InlineKeyboardButton(text="HELP",callback_data="help_back")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
