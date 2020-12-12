@@ -69,7 +69,7 @@ def addsudo(bot: Bot, update: Update, args: List[str]) -> str:
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + "\n ഹാപ്പി ബെർത്ത് ഡെ ടൂ യൂ🎉 {} added to Sudo!".format(user_member.first_name))
+        rt + "\n സുഡോ ആക്കിട്ടുണ്ട് \n എന്നിട്ട് എന്ത് കാണികാണാവോ{} കുറുമ്പ് കാട്ടിയാൽ അടി മേടിക്കും".format(user_member.first_name))
 
     log_message = (f"#SUDO\n"
                    f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
