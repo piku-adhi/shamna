@@ -25,18 +25,18 @@ def music(bot: Bot, update: Update, args):
 	if video_id.find('youtu.be') != -1:
 		index = video_id.rfind('/') + 1
 		video_id = video_id[index:][:11]
-		message.reply_text("Please wait...\nDownloading audio.")
+		message.reply_text("നിൽ ...\nഐറ്റം ലോഡിങ്.")
 
 	elif video_id.find('youtube') != -1:
 		index = video_id.rfind('?v=') + 3
 		video_id = video_id[index:][:11]
-		message.reply_text("Please wait...\nDownloading audio.")
+		message.reply_text("നിൽ...\nഐറ്റം വരുന്നുണ്ട്")
 
 	elif not video_id.find('youtube') != -1:
-		message.reply_text("Please provide me youtube link")
+		message.reply_text("മൈ?")
 
 	elif not video_id.find('youtu.be') != -1:
-		message.reply_text("Please provide me youtube link")
+		message.reply_text("ലിങ്ക് എടുത്ത് അണ്ണാക്കിൽ വച്ചേക്!")
 		
 
         
@@ -61,7 +61,7 @@ def music(bot: Bot, update: Update, args):
 		if not json2_response['error']:
 			payload = json2_response['payload']
 
-			info = '*{0}* \nUploaded by CINDERELLA'.format(payload['fulltitle'])
+			info = '*{0}* \nUploaded by ME'.format(payload['fulltitle'])
 
 			try:
 				
