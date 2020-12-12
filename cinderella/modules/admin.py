@@ -252,7 +252,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
             message.reply_text("An error occured while promoting.")
             return log_message
                          
-    bot.sendMessage(chat.id, "Sucessfully promoted <b>{}</b>❤!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
+    bot.sendMessage(chat.id, "സന്തോഷം ആയാലോ<b>{}</b>❤!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
     
     log_message += "<b>{}:</b>" \
                    "\n#PROMOTED" \
@@ -310,7 +310,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
                               can_pin_messages=False,
                               can_promote_members=False)
 
-        bot.sendMessage(chat.id, "Sucessfully demoted <b>{}</b>!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
+        bot.sendMessage(chat.id, "മാറി ഇരുന്ന് കരഞ്ഞോ😂<b>{}</b>!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
 
         log_message += "<b>{}:</b>" \
                        "\n#DEMOTED" \
