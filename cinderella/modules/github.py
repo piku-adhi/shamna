@@ -30,6 +30,7 @@ def github(bot: Bot, update: Update):
 *🌍Website:* `{usr['blog']}`
 *♻️Last updated:* `{usr['updated_at']}`
 *📒Account created at:* `{usr['created_at']}`
+*😎what other says:* `{usr['ഇവൻ ആളൊരു കില്ലാടി തന്നെ']}
 """
     else:
         reply_text = "User not found. Make sure you entered valid username!"
