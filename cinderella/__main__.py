@@ -59,7 +59,7 @@ def vercheck() -> str:
 
 SOURCE_STRING = """
 ⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [there](https://t.me/jacob_paul1/24)
-⚡You Can Clone Me [Here](https://t.me/fun_heat)
+⚡You Can Clone Me [Here](https://t.me/power_of_telegram)
 """
 
 
@@ -283,7 +283,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="⚔️Help⚔️",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="⚠️Contact Creator⚠️",url="https://t.me/fun_heat")]]))
+                                                [InlineKeyboardButton(text="⚠️Contact Creator⚠️",url="https://t.me/power_of_telegram")]]
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
@@ -603,7 +603,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Cinderella running...")
+        LOGGER.info("Cinderella crashing...")
         updater.start_polling(timeout=15, read_latency=4)
 
     updater.idle()
