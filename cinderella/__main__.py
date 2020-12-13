@@ -181,9 +181,9 @@ def send_start(bot, update):
 
     keyboard = [[InlineKeyboardButton(text="SHAMNA",url="http://t.me/ShamnaPro_bot"),InlineKeyboardButton(text="MASTER BRAIN",url="https://t.me/pikachu_of_telegram")]]
     keyboard += [[InlineKeyboardButton(text="MT OFFICIAL ",url="http://t.me/MT_Officials"),InlineKeyboardButton(text="SHRUTHI",url="http://t.me/Riskgirl_Bot")]]
-    keyboard += [[InlineKeyboardButton(text="DEVELOPERS",url="http://t.me/mtoffbotdev"),InlineKeyboardButton(text="HONEY BEES",url="http://t.me/HoneyBeesChat")]]
+    keyboard += [[InlineKeyboardButton(text="SUPPORT",url="http://t.me/Bot_Hub1"),InlineKeyboardButton(text="HONEY BEES",url="http://t.me/HoneyBeesChat")]]
     keyboard += [[InlineKeyboardButton(text="HELP",callback_data="help_back")]]
-    keyboard += [[InlineKeyboardButton(text="SOURCE",url="http://t.me/allbottest")]]
+    keyboard += [[InlineKeyboardButton(text="BOT TEST",url="http://t.me/allbottest")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
